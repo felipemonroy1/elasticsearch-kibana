@@ -2,7 +2,7 @@ FROM node:10.15.2-alpine
 
 LABEL maintainer "nshou <nshou@coronocoya.net>"
 
-ARG ek_version=7.5.1
+ARG ek_version=7.6.1
 
 RUN apk add --quiet --no-progress --no-cache openjdk8-jre-base \
  && adduser -D elasticsearch
